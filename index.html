@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rocket launch animation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+     <div class="earth" onmouseover="showInfo('Earth', 'The third planet from the Sun.')">
+        <img src="images/earth.jpg" alt="earth">
+    </div>
+    <div class="mars" onmouseover="showInfo('Mars', 'The fourth planet from the Sun.')">
+        <img src="images/mars moving.gif" width="200" height="200" alt="mars">
+    </div>
+    <div class="rocket" onmouseover="showInfo('Rocket', 'Ready for interstellar travel.')">
+        <img src="images/rocket.jpg" alt="rocket">
+    </div>
+    <div class="saturn" onmouseover="showInfo('Saturn', 'The sixth planet from the Sun.')">
+        <img src="images/move saturn.gif" width="250" height="170" alt="saturn">
+    </div> 
+    <img id="moonplode" onmouseover="showInfo('Moon', 'Earth\'s only natural satellite.')"src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Lune_ico.png/590px-Lune_ico.png">
+    <div class="dialog-box" id="dialogBox"></div>
+    <script src="main.js"></script>
+</body>
+</html>
